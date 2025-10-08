@@ -1,0 +1,21 @@
+130.4資料夾位置
+D:\Logistics\711B2C\SIN\54305556
+
+webconfig
+<!--7-11大宗ftp-->
+<add key="7-11BulkftpUrl" value="FTP://b2c-ds.presco.com.tw" />
+
+--撈商家帳密
+select ftpusername,ftppassword
+from User_LogisticService
+where user_account='54305556'
+and LogisticServiceID='02'
+
+--確認資料
+select * from Bulk711Order where LogisticNumber='DLYM0047B12510070034'
+
+--更新SIN
+declare 
+@LogisticNumber varchar(20)='DLYM0047B12510070034',
+@SinFileName varchar(20)='829I482025100802.xml';
+Update Bulk711Order set SINFileName=@SinFileName where LogisticNumber=@LogisticNumber;

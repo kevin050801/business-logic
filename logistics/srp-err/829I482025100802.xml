@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OrderDoc>
+  <DocHead>
+    <DocNo>829I482025100802</DocNo>
+    <DocDate>2025-10-08</DocDate>
+    <ParentId>829</ParentId>
+  </DocHead>
+  <DocContent>
+    <Order>
+      <EshopId>I48</EshopId>
+      <OPMode>A</OPMode>
+      <EshopOrderNo>DLYM0047B12510070034</EshopOrderNo>
+      <EshopOrderDate>2025-10-07</EshopOrderDate>
+      <ServiceType>1</ServiceType>
+      <ShopperName>阿阿J</ShopperName>
+      <ShopperPhone></ShopperPhone>
+      <ShopperMobilPhone></ShopperMobilPhone>
+      <ShopperEmail></ShopperEmail>
+      <ReceiverName>阿阿J</ReceiverName>
+      <ReceiverPhone></ReceiverPhone>
+      <ReceiverMobilPhone>667</ReceiverMobilPhone>
+      <ReceiverEmail>yjc660425@gmail.com</ReceiverEmail>
+      <ReceiverIDNumber></ReceiverIDNumber>
+      <OrderAmount>3867</OrderAmount>
+      <OrderDetail>
+        <ProductId></ProductId>
+        <ProductName></ProductName>
+        <Quantity></Quantity>
+        <Unit></Unit>
+        <UnitPrice></UnitPrice>
+      </OrderDetail>
+      <ShipmentDetail>
+        <ShipmentNo>88098799</ShipmentNo>
+        <ShipDate>2025-10-08</ShipDate>
+        <ReturnDate>2025-10-16</ReturnDate>
+        <LastShipment>Y</LastShipment>
+        <ShipmentAmount>3867</ShipmentAmount>
+        <StoreId>951003</StoreId>
+        <EshopType>04</EshopType>
+      </ShipmentDetail>
+    </Order>
+  </DocContent>
+</OrderDoc>
